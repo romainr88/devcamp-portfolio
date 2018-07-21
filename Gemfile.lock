@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/romainr88/devcamp_view_tool
+  revision: 9a05dcc0b71f85e701f9aaf6d1dfddb805999bc3
+  specs:
+    devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,7 +53,7 @@ GEM
       execjs
     bcrypt (3.1.12)
     bindex (0.5.0)
-    bootsnap (1.3.0)
+    bootsnap (1.3.1)
       msgpack (~> 1.0)
     bootstrap (4.1.1)
       autoprefixer-rails (>= 6.0.3)
@@ -73,7 +79,7 @@ GEM
       warden (~> 1.2.3)
     erubi (1.7.1)
     execjs (2.7.0)
-    ffi (1.9.23)
+    ffi (1.9.25)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.1)
@@ -106,7 +112,7 @@ GEM
     msgpack (1.2.4)
     multi_json (1.13.1)
     nio4r (2.3.1)
-    nokogiri (1.8.2)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     pg (1.0.0)
@@ -117,7 +123,7 @@ GEM
     pry-byebug (3.6.0)
       byebug (~> 10.0)
       pry (~> 0.10)
-    puma (3.11.4)
+    puma (3.12.0)
     rack (2.0.5)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -153,7 +159,7 @@ GEM
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
     ruby_dep (1.5.0)
-    sass (3.5.6)
+    sass (3.5.7)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -169,7 +175,7 @@ GEM
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
       spring (>= 1.2, < 3.0)
-    sprockets (3.7.1)
+    sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.2.1)
@@ -184,7 +190,7 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.1.10)
+    uglifier (4.1.15)
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
@@ -205,6 +211,7 @@ DEPENDENCIES
   bootstrap (~> 4.1.1)
   byebug
   coffee-rails (~> 4.2)
+  devcamp_view_tool!
   devise (~> 4.2)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
