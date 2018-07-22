@@ -214,7 +214,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devcamp_view_tool!
-  devise (~> 4.2)
+  devise
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
