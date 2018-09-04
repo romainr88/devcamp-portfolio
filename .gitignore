@@ -27,3 +27,4 @@
 
 # Ignore storage file.
 /config/storage.yml
+.env
