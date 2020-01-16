@@ -9,10 +9,20 @@ User.create!(
 puts "1 Admin user created"
 
 User.create!(
-  email: "test@test.com",
-  password: "testtest",
-  password_confirmation: "testtest",
-  name: "Regular User",
+  email: "editor@test.com",
+  password: "editortest",
+  password_confirmation: "editortest",
+  name: "Editor User",
+  roles: "site_editor"
+)
+
+puts "1 editor user created"
+
+User.create!(
+  email: "user@test.com",
+  password: "usertest",
+  password_confirmation: "usertest",
+  name: "Regular User"
 )
 
 puts "1 regular user created"
