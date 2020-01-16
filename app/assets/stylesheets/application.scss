@@ -162,8 +162,8 @@ body {
   }
 }
 
-/* 
-* Custom Styles 
+/*
+* Custom Styles
 */
 
 .card-body {
@@ -219,4 +219,21 @@ body {
 
 .tech-news > .card {
   padding: 30px;
+}
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
 }
