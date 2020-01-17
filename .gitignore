@@ -26,5 +26,4 @@
 /config/master.key
 
 # Ignore storage file.
-/config/storage.yml
 .env
