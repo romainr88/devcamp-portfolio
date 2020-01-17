@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    DevcampViewTool::Renderer.copyright 'Ten ', 'All rights reserved'
   end
 
   def nav_items
@@ -72,6 +72,6 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-      js add_gritter(msg, title: "Jordan Hudgens Portfolio", sticky: false)
+      js add_gritter(msg, title: "Ten Portfolio", sticky: false)
   end
 end
